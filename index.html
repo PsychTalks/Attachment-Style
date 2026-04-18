@@ -482,7 +482,7 @@ header p {
   </div>
   <div class="header-badge">মানসিক স্বাস্থ্য মূল্যায়ন</div>
   <h1>আপনার <span>অ্যাটাচমেন্ট স্টাইল</span> কোনটি?</h1>
-  <p>আপনি কীভাবে ভালোবাসেন, কাছের মানুষের সাথে সম্পর্ক গড়েন এবং বিপদে সাড়া দেন — সেই গভীর মানসিক ছাপগুলো বুঝুন। এই গবেষণা-ভিত্তিক মূল্যায়নটি প্রায় ৫ মিনিট সময় নেয়।</p>
+  <p>আপনি কীভাবে ভালোবাসেন, কাছের মানুষের সাথে সম্পর্ক তৈরি করেন এবং কঠিন সময়ে কীভাবে প্রতিক্রিয়া দেন, এই বিষয়গুলো সহজভাবে বুঝে নিন। এই গবেষণাভিত্তিক ছোট্ট মূল্যায়নটি করতে মাত্র ৫ মিনিট সময় লাগবে।</p>
   <div class="header-divider"><span></span><em></em><span></span></div>
 </header>
 
@@ -502,11 +502,11 @@ header p {
 <div class="quiz-section active" id="intro">
   <div class="quiz-card" style="text-align:center">
     <div class="q-num">শুরু করার আগে</div>
-    <p class="q-text" style="margin-bottom:18px">প্রতিটি বিবৃতির উত্তর সৎভাবে দিন — কোনো সঠিক বা ভুল উত্তর নেই। শুধুমাত্র একটি নির্দিষ্ট সম্পর্ক নয়, সামগ্রিক নিদর্শনের কথা মাথায় রেখে উত্তর দিন।</p>
+    <p class="q-text" style="margin-bottom:18px">প্রতিটি প্রশ্নের উত্তর সৎভাবে দিন, এখানে সঠিক বা ভুল কোনো উত্তর নেই। শুধু একটি নির্দিষ্ট সম্পর্ক নয়, বরং আপনার সামগ্রিক অভিজ্ঞতার কথা ভেবে উত্তর দিন।</p>
     <p style="font-size:13px;color:var(--gray);line-height:1.8;margin-bottom:28px">এই অ্যাসেসমেন্টটি জন বওলবি (John Bowlby) কর্তৃক বিকশিত অ্যাটাচমেন্ট তত্ত্বের উপর ভিত্তি করে তৈরি এবং গবেষক মেরি এইন্সওয়ার্থ (Mary Ainsworth) ও সিন্ডি হাজান (Cindy Hazan) কর্তৃক সম্প্রসারিত। এটি চারটি প্রধান অ্যাটাচমেন্ট স্টাইল চিহ্নিত করে: <strong style="color:var(--navy)">নিরাপদ (Secure)</strong>, <strong style="color:var(--navy)">উদ্বিগ্ন (Anxious-Preoccupied)</strong>, <strong style="color:var(--navy)">এড়িয়ে চলা (Dismissive-Avoidant)</strong> এবং <strong style="color:var(--navy)">ভয়ভীত-এড়িয়ে চলা (Fearful-Avoidant)</strong>।</p>
     <button class="btn btn-next" style="margin:0 auto;display:block;padding:14px 40px;font-size:15px" onclick="startQuiz()">মূল্যায়ন শুরু করুন →</button>
   </div>
-  <p class="disclaimer">এই মূল্যায়নটি শুধুমাত্র শিক্ষামূলক ও আত্ম-প্রতিফলনের উদ্দেশ্যে। এটি কোনো ক্লিনিক্যাল রোগ নির্ণয় নয়। মানসিক স্বাস্থ্য সম্পর্কিত উদ্বেগ থাকলে একজন যোগ্য পেশাদারের সাথে পরামর্শ করুন।</p>
+  <p class="disclaimer">এই মূল্যায়নটি শুধুমাত্র শিক্ষামূলক ও আত্ম-প্রতিফলনের উদ্দেশ্যে। এটি কোনো ক্লিনিক্যাল রোগ নির্ণয় নয়। মানসিক স্বাস্থ্য সম্পর্কিত উদ্বেগ থাকলে একজন যোগ্য পেশাদারের সাথে পরামর্শ করুন।<br><a href="https://www.psychtalks.substack.com" target="_blank" rel="noopener noreferrer" style="color:var(--green);text-decoration:none;font-weight:600;">www.psychtalks.substack.com</a></p>
 </div>
 
 <!-- QUIZ -->
@@ -582,6 +582,7 @@ header p {
 <footer class="site-footer" style="max-width:680px;margin:0 auto 32px;">
   <strong>Presented by PsychTalks</strong><br>
   One stop solution for your mental health.<br>
+  <a href="https://www.psychtalks.substack.com" target="_blank" rel="noopener noreferrer" style="color:#2a9d54;text-decoration:none;font-weight:600;">www.psychtalks.substack.com</a><br>
   &copy; <span id="footerYear"></span> PsychTalks. All Rights Reserved.
 </footer>
 <script>document.getElementById('footerYear').textContent = new Date().getFullYear();</script>
@@ -634,12 +635,12 @@ const questions = [
     ]
   },
   {
-    text: "আবেগীয় ঘনিষ্ঠতা — গভীর চিন্তা, ভয় ও দুর্বলতা শেয়ার করার ব্যাপারে আপনি কেমন অনুভব করেন?",
+    text: "আবেগের দিক থেকে কাছাকাছি হওয়া, যেমন নিজের গভীর চিন্তা, ভয় বা দুর্বলতা শেয়ার করা—এ নিয়ে আপনি কী অনুভব করেন?",
     options: [
-      { label: "পারস্পরিক হলে আরামদায়ক এবং পরিপূর্ণ লাগে", key: "S" },
-      { label: "গভীরভাবে চাই, কিন্তু মনে হয় অন্যরা যতটা দিতে পারে তার চেয়ে বেশি চাই", key: "A" },
-      { label: "অস্বস্তিকর — বেশিরভাগ মানুষের সাথে উপরিভাগে থাকতে পছন্দ করি", key: "D" },
-      { label: "চাই, কিন্তু এটি আমাকে ভয় দেখায় এবং ঝুঁকিপূর্ণ মনে হয়", key: "F" }
+      { label: "দুজনেই শেয়ার করলে ভালো লাগে, স্বস্তি পাই", key: "S" },
+      { label: "আমি মানুষের সাথে গভীরভাবে যুক্ত হতে চাই, কিন্তু মনে হয় আমি যতটা চাই, অন্যরা ততটা পারে না", key: "A" },
+      { label: "এতে অস্বস্তি লাগে, বেশিরভাগ মানুষের সাথে দূরত্ব রাখতেই স্বাচ্ছন্দ্য বোধ করি", key: "D" },
+      { label: "চাই, কিন্তু ভয় লাগে, ঝুঁকিপূর্ণ মনে হয়", key: "F" }
     ]
   },
   {
@@ -652,12 +653,12 @@ const questions = [
     ]
   },
   {
-    text: "আপনার সবচেয়ে গুরুত্বপূর্ণ সম্পর্কে কোন নিদর্শনটি সবচেয়ে পরিচিত মনে হয়?",
+    text: "আপনার জীবনের গুরুত্বপূর্ণ সম্পর্কগুলোতে কোন ধরনের আচরণ বা অভিজ্ঞতা আপনার কাছে সবচেয়ে বেশি পরিচিত মনে হয়, এমনটা হয়ে এসেছে বা হচ্ছে?",
     options: [
       { label: "কঠিন সময়েও নিরাপদ অনুভব করেছি এবং সম্পর্কে আস্থা রেখেছি", key: "S" },
       { label: "ক্রমাগত আশ্বাস প্রয়োজন হয়েছে এবং হারিয়ে ফেলার ভয় ছিল", key: "A" },
       { label: "দমবন্ধ লেগেছে এবং আমার স্বাধীনতা রক্ষা করার প্রয়োজন অনুভব করেছি", key: "D" },
-      { label: "তীব্র উচ্চ ও নিম্ন অনুভব — কাছে টানা কিন্তু কষ্ট পাওয়ার ভয়ও", key: "F" }
+      { label: "খুব বেশি ওঠানামা—কখনও খুব কাছে যেতে ইচ্ছে করে, আবার কখনও কষ্ট পাওয়ার ভয়ে দূরে সরে যেতে ইচ্ছে করে", key: "F" }
     ]
   },
   {
@@ -824,7 +825,15 @@ function goBack() {
 function showResults() {
   const scores = { S: 0, A: 0, D: 0, F: 0 };
   answers.forEach(k => { if (k) scores[k]++; });
-  winnerKey = Object.entries(scores).sort((a,b) => b[1]-a[1])[0][0];
+  // Tie-breaking: when scores are equal, pick the most psychologically precise.
+  // Priority order based on clinical distinctiveness: F > A > D > S
+  // (Fearful-Avoidant is rarest and most specific; Secure is default/fallback)
+  const priority = { F: 4, A: 3, D: 2, S: 1 };
+  const sorted = Object.entries(scores).sort((a, b) => {
+    if (b[1] !== a[1]) return b[1] - a[1];
+    return priority[b[0]] - priority[a[0]];
+  });
+  winnerKey = sorted[0][0];
   const r = results[winnerKey];
   document.getElementById('quizSection').classList.remove('active');
   document.getElementById('progressWrap').style.display = 'none';
@@ -873,7 +882,11 @@ function downloadResult() {
   wrap.innerHTML = `
   <div style="background:white;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,0.08);">
     <div style="background:#1e2d4a;padding:22px 40px;display:flex;align-items:center;justify-content:space-between;">
-      <div style="color:white;font-size:19px;font-weight:700;line-height:1.3">Psych<span style="color:#2a9d54">Talks</span><br><span style="font-size:11px;font-weight:400;opacity:0.65">Theory • Therapy</span></div>
+      <div>
+        <div style="color:white;font-size:22px;font-weight:800;letter-spacing:-0.5px;line-height:1.2;">Psych<span style="color:#2a9d54">Talks</span></div>
+        <div style="color:rgba(255,255,255,0.55);font-size:11px;font-weight:400;letter-spacing:0.12em;text-transform:uppercase;margin-top:3px;">Theory • Therapy</div>
+        <div style="color:rgba(255,255,255,0.45);font-size:11px;margin-top:4px;">www.psychtalks.substack.com</div>
+      </div>
       <div style="color:rgba(255,255,255,0.6);font-size:13px;">${timestamp}</div>
     </div>
     <div style="background:linear-gradient(135deg,#e8f5ed 0%,#f7faf8 100%);padding:36px 40px;border-bottom:2px solid #c5e8d2;">
@@ -909,7 +922,7 @@ function downloadResult() {
     </div>
     <div style="background:#f7faf8;border-top:1px solid #c5e8d2;padding:18px 40px;font-size:11px;color:#6b7c8d;text-align:center;line-height:1.6;">
       এই মূল্যায়নটি শুধুমাত্র শিক্ষামূলক ও আত্ম-প্রতিফলনের উদ্দেশ্যে। এটি কোনো ক্লিনিক্যাল রোগ নির্ণয় নয়।<br>
-      PsychTalks — Theory • Therapy | psychtalks.substack.com
+      <span style="color:#2a9d54;font-weight:600;">PsychTalks</span> — Theory • Therapy | www.psychtalks.substack.com
     </div>
   </div>`;
 
@@ -923,14 +936,49 @@ function downloadResult() {
     windowWidth: 680
   }).then(canvas => {
     document.body.removeChild(wrap);
-    canvas.toBlob(blob => {
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'psychtalks-attachment-result.png';
-      a.click();
-      URL.revokeObjectURL(url);
-    }, 'image/png');
+
+    // Detect if we're inside Facebook/Messenger in-app browser (which blocks <a> download clicks)
+    const ua = navigator.userAgent || '';
+    const isFBBrowser = /FBAN|FBAV|Messenger|Instagram|Twitter|Line\//.test(ua);
+
+    if (isFBBrowser) {
+      // Show the image in a full-screen overlay with instructions to save
+      canvas.toBlob(blob => {
+        const url = URL.createObjectURL(blob);
+        const overlay = document.createElement('div');
+        overlay.style.cssText = `
+          position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:99999;
+          display:flex;flex-direction:column;align-items:center;justify-content:flex-start;
+          overflow-y:auto;padding:20px 16px 40px;
+        `;
+        overlay.innerHTML = `
+          <div style="width:100%;max-width:480px;">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
+              <p style="color:white;font-family:'Hind Siliguri',sans-serif;font-size:14px;line-height:1.6;margin:0;">
+                ছবিটিতে <strong>দীর্ঘক্ষণ চেপে ধরুন</strong> (Long Press) এবং <strong>"Save Image"</strong> বা <strong>"ছবি সংরক্ষণ করুন"</strong> নির্বাচন করুন।
+              </p>
+              <button onclick="this.closest('div[style*=fixed]').remove();URL.revokeObjectURL('${url}');"
+                style="background:rgba(255,255,255,0.15);border:none;color:white;font-size:22px;cursor:pointer;
+                border-radius:50%;width:36px;height:36px;flex-shrink:0;margin-left:10px;font-family:sans-serif;">✕</button>
+            </div>
+            <img src="${url}" style="width:100%;border-radius:10px;display:block;" />
+          </div>
+        `;
+        document.body.appendChild(overlay);
+      }, 'image/png');
+    } else {
+      // Standard download for regular browsers
+      canvas.toBlob(blob => {
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'psychtalks-attachment-result.png';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+      }, 'image/png');
+    }
   });
 }
 
